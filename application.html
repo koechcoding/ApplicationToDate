@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="application.css" />
+    <script src="application.js"></script>
+</head>
+
+<body>`
+    <form class="form-control" details="details" style="align-items: block;">
+        <h1>APPLICATION TO DATE MY DAUGHTER </h1>
+        <div class="container">
+            <h3>Input your details:</h3>
+
+            <label for="Name"><b>Name</b></label><br>
+            <input class="Name" type="text" placeholder="Enter Name" name="Name" id="Name" required><br>
+
+            <label for="email"><b>Email</b></label><br>
+            <input class="Email" type="email" placeholder="Email" name="Email" id="Email" required><br>
+
+            <label for="phone number"><b>Phone Number</b></label><br>
+            <input class="Phone Number" type="number" placeholder="Phone Number" name="Phone Number" id="Phone Number" required><br>
+        </div>
+        <div>
+            <h3>What gender are you?</h3>
+            <div id="alert">
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other"> Other<br>
+            </div>
+        </div>
+        <div>
+            <h3>Which date are you willing to propose?</h3>
+            <input style="width: 110px;" type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2022-12-31">
+
+        </div>
+        <div><br>
+            <h3>My secret password</h3>
+            <input type="password" id="pwd" name="pwd">
+        </div>
+        <div style="color: white; ">
+            <h3>Questions</h3><br>
+            <input type="checkbox" id="worklife" name="working" value="working">
+            <label for="vehicle1"> Do you work full time</label><br>
+            <input type="checkbox" id="wealth" name="wealth" value="riches">
+            <label for="checkbox"> Are your parents rich</label><br>
+            <input type="checkbox" id="tattoo" name="tattoo" value="tattoo">
+            <label for="checkbox"> Do you have tattoos</label><br><br>
+        </div>
+        <div style="color: white;">
+            <h3>What religion are you?</h3><br>
+            <input type="radio" name="religion" value="christian">Christian<br>
+            <input type="radio" name="religion" value="muslim"> Muslim<br>
+            <input type="radio" name="religion" value="pagan"> Pagan<br>
+            <input type="radio" name="religion" value="atheist"> Atheist<br>
+            <input type="radio" name="religion" value="pagan"> others<br>
+
+        </div>
+        <div>
+            <h3>Education Level</h3><br>
+            <select name="education" id="Education">
+            <option value="primary">Primary</option>
+            <option value="Highschool">Highschool</option>
+            <option value="college">College</option>
+            <option value="degree">Degree</option>
+            <option value="masters">Masters</option>
+          </select>
+        </div>
+        <div>
+
+            <h style="size: 50px;">Explain why you want my daughter</h3><br>
+                <textarea name="comment" form="usrform">in 50 words...</textarea>
+        </div>
+        <div>
+            <h3>Dedicate a song to my daughter</h3>
+            <label for="song"><b>song</b></label><br>
+            <input class="song" type="text" placeholder="Enter song" name="song" id="name" required><br>
+
+            <video width="500px" height="500px" controls="controls" />
+
+            <source src="video\Nyashinski- Malaika (WANAVOKALI Cover).mp4" type="video/mp4">
+            </video>
+        </div>
+        <input style="height: 40px;width: 100px;" type="submit" value="Submit">
+    </form>
+    </div>
+</body>
+
+</html>

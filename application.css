@@ -1,0 +1,37 @@
+body {
+    background-image: url(https://images.pexels.com/photos/3139074/pexels-photo-3139074.jpeg?cs=srgb&dl=pexels-aleksandar-pasaric-3139074.jpg&fm=jpg);
+}
+
+form {
+    align-items: center;
+    align-content: center;
+    height: cover;
+    width: 800px;
+    padding-right: 200px;
+    padding-left: 200px;
+    background-position: 400px;
+    text-align: center;
+}
+
+textarea {
+    width: 350px;
+    height: 150px;
+}
+
+h3 {
+    color: white;
+}
+
+input {
+    align-self: center;
+    background-color: aliceblue;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+div#alert {
+    color: white;
+    align-items: block;
+}
